@@ -1,0 +1,214 @@
+.achievements-section {
+  padding: 120px 0;
+  margin-bottom: 100px;
+}
+
+.achievements-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.achievements-section h2 {
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 400;
+  text-align: center;
+  background: linear-gradient(0deg, #7f40ff, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 60px;
+}
+
+.achievements-section h2 > span {
+  font-family: "Geist", sans-serif;
+  font-weight: 300;
+}
+
+.achievements-grid,
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 0 auto 50px;
+  justify-items: center;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.achievement-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border: 1px solid #363636;
+  border-radius: 8px;
+  padding: 24px;
+  background: rgba(26, 18, 32, 0.5);
+  transition: border-color 0.3s;
+  width: 100%;
+  max-width: 520px;
+}
+
+.achievement-card:hover {
+  border-color: var(--accentColor);
+}
+
+.achievement-icon {
+  font-size: 28px;
+  flex-shrink: 0;
+}
+
+.achievement-card h4 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 0 4px;
+}
+
+.achievement-card p {
+  font-size: 13px;
+  color: #adacac;
+  margin: 0;
+  font-weight: 300;
+}
+
+.education-box {
+  border: 1px solid #363636;
+  border-radius: 8px;
+  padding: 30px;
+  margin: 0 auto 40px;
+  background: rgba(26, 18, 32, 0.5);
+  width: 100%;
+  max-width: 1000px;
+}
+
+.education-box h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--accentColor);
+  margin: 0 0 16px;
+  font-weight: 400;
+}
+
+.education-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 16px 0;
+  border-bottom: 1px solid #36363622;
+}
+
+.education-detail:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.education-secondary h4 {
+  font-size: 16px !important;
+}
+
+.education-detail h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 0 4px;
+}
+
+.education-detail p {
+  font-size: 14px;
+  color: #adacac;
+  margin: 0;
+  font-weight: 300;
+}
+
+.education-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.education-meta span {
+  font-size: 14px;
+  color: #adacac;
+  font-weight: 300;
+}
+
+.education-cgpa {
+  color: var(--accentColor) !important;
+  font-weight: 500 !important;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.skills-category h4 {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--accentColor);
+  margin: 0 0 12px;
+  font-weight: 400;
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-tag {
+  font-size: 12px;
+  padding: 5px 12px;
+  border: 1px solid #363636;
+  border-radius: 20px;
+  color: #ccc;
+  font-weight: 300;
+  transition: border-color 0.3s, color 0.3s;
+}
+
+.skill-tag:hover {
+  border-color: var(--accentColor);
+  color: var(--accentColor);
+}
+
+@media only screen and (max-width: 1024px) {
+  .achievements-grid,
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 700px;
+  }
+  .achievements-section h2 {
+    font-size: 45px;
+    line-height: 45px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .achievements-grid,
+  .skills-grid {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+  .education-detail {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .education-meta {
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .achievements-section {
+    padding: 80px 0;
+  }
+}

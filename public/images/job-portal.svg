@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" fill="none">
+  <rect width="400" height="280" rx="8" fill="#1a1220" stroke="#363636"/>
+  <rect x="30" y="30" width="340" height="220" rx="6" fill="#0b080c" stroke="#ffc10744"/>
+  <rect x="50" y="50" width="300" height="40" rx="4" fill="#121018" stroke="#363636"/>
+  <rect x="65" y="62" width="120" height="16" rx="3" fill="#ffc10733"/>
+  <rect x="280" y="62" width="55" height="16" rx="8" fill="#ffc10755" stroke="#ffc107"/>
+  <text x="307" y="73" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#ffc107">WIP</text>
+  <rect x="50" y="105" width="140" height="120" rx="4" fill="#121018" stroke="#363636"/>
+  <rect x="65" y="120" width="80" height="10" rx="2" fill="#c2a4ff44"/>
+  <rect x="65" y="140" width="110" height="6" rx="2" fill="#363636"/>
+  <rect x="65" y="155" width="90" height="6" rx="2" fill="#363636"/>
+  <rect x="65" y="175" width="100" height="20" rx="4" fill="#c2a4ff22" stroke="#c2a4ff"/>
+  <rect x="210" y="105" width="140" height="55" rx="4" fill="#121018" stroke="#363636"/>
+  <rect x="225" y="120" width="70" height="8" rx="2" fill="#c2a4ff44"/>
+  <rect x="225" y="138" width="100" height="6" rx="2" fill="#363636"/>
+  <rect x="210" y="170" width="140" height="55" rx="4" fill="#121018" stroke="#363636"/>
+  <rect x="225" y="185" width="70" height="8" rx="2" fill="#c2a4ff44"/>
+  <rect x="225" y="203" width="100" height="6" rx="2" fill="#363636"/>
+  <text x="200" y="252" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#ffc10788">Currently Building</text>
+</svg>
