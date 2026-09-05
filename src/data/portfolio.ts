@@ -8,7 +8,7 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/marwan-shafi-167701291/",
   github: "https://github.com/marwaaann",
   leetcode: "https://leetcode.com/u/marwaaann/",
-  codechef: "https://www.codechef.com/users/troop_dew_78",
+  codechef: "https://www.codechef.com/users/marwaaann",
   codolio: "https://codolio.com/profile/marrwaaan",
   resumePath: "/resume.pdf",
 };
@@ -40,22 +40,32 @@ export const experience = [
     period: "2026",
     highlights: [
       "Built two production-grade Spring Boot systems — Employee & Department Management System and Recruitment/Job Portal with 10+ modules including Auth, RBAC, Leave Management, Job Postings, and Audit Logging.",
-      "Designed 20+ secure RESTful APIs with Spring Security, JWT (access/refresh tokens), and role-based access across six roles (Admin, Manager, Employee, Super Admin, Partner, Client).",
-      "Architected normalized PostgreSQL schemas across 12+ entities using Spring Data JPA/Hibernate with pagination, indexed foreign keys, and optimized queries.",
+      "Designed 32+ secure RESTful APIs with Spring Security, JWT (access/refresh tokens), and role-based access across six roles (Admin, Manager, Employee, Super Admin, Partner, Client).",
+      "Architected normalized PostgreSQL schemas across 18+ entities using Spring Data JPA/Hibernate with pagination, indexed foreign keys, and optimized queries.",
       "Implemented multi-stage hiring workflows, OTP-based password reset, duplicate-candidate detection, GlobalExceptionHandler, and structured audit logging in Agile sprints.",
     ],
     description:
-      "50-day internship delivering enterprise backend systems with Spring Boot 3.x, PostgreSQL, and JWT-secured REST APIs. Collaborated using Git, Maven, and Postman in Agile sprints.",
+      "50-day internship delivering enterprise backend systems with Spring Boot 3.x, PostgreSQL, React, and JWT-secured REST APIs. Collaborated using Git, Maven, and Postman in Agile sprints.",
   },
 ];
 
 export const projects = [
   {
+    title: "NutriVerse",
+    category: "AI Recipe & Nutrition Assistant",
+    tools: "TypeScript, React, Node.js, Express, MongoDB, Redis, Gemini, LangGraph, USDA API, Zod",
+    description:
+      "Full-stack nutrition assistant with Gemini-powered ingredient parsing, USDA FoodData Central analysis across seven nutrition metrics, a LangGraph cooking agent with dynamic tool-calling, WebSocket chat, meal planning, grocery lists, and Redis-backed HttpOnly-cookie sessions.",
+    link: "https://github.com/marwaaann/NutriVerse",
+    image: "/images/nutriverse.svg",
+    status: "completed" as const,
+  },
+  {
     title: "Employee & Department Management System",
     category: "Enterprise Backend",
     tools: "Java 17, Spring Boot 3.x, PostgreSQL, JWT, JPA/Hibernate, Spring Security",
     description:
-      "Production-grade system with 6 modules — Authentication, Employee Management, Role Management, Leave Management, Approval Workflows, and Audit Logging. Secured 12+ REST APIs with JWT and RBAC for Admin, Manager, and Employee roles.",
+      "Production-grade system with 6 modules — Authentication, Employee Management, Role Management, Leave Management, Approval Workflows, and Audit Logging. Includes 100+ employee records and multi-step leave approval workflows.",
     link: "https://github.com/marwaaann/Employee-Management-System",
     image: "/images/employee-management-login.svg",
     status: "completed" as const,
@@ -65,39 +75,29 @@ export const projects = [
     category: "Full Stack Web App",
     tools: "Spring Boot, React.js, PostgreSQL, JWT, REST APIs",
     description:
-      "Multi-stage hiring platform with role-based dashboards for recruiters, partners, and candidates. Currently under active development — OTP authentication, workflow automation, and candidate pipeline management coming soon.",
-    link: "",
+      "Multi-stage hiring platform with 50+ REST endpoints across 8 modules, 11 normalized PostgreSQL entities, refresh-token rotation, cookie-based CSRF protection, and live role-based messaging through Spring WebSocket/STOMP/SockJS.",
+    link: "https://github.com/marwaaann/recruitment-job-portal-system",
     image: "/images/job-portal-login.svg",
     status: "in-progress" as const,
   },
   {
-    title: "Adversarial Attack Detection",
-    category: "Machine Learning & Security",
-    tools: "Python, YOLOv8, PyTorch, Adversarial ML, Computer Vision",
+    title: "NeuroScan.AI",
+    category: "Computer Vision & Machine Learning",
+    tools: "Python, YOLOv8, FastAPI, Streamlit, PyTorch, Computer Vision",
     description:
-      "Implemented an adversarial attack detection pipeline for AI-generated images using FGSM and pixel variation analysis. Designed a robust neural network model to detect adversarial manipulations while maintaining high accuracy.",
+      "Production-style medical computer-vision application with a FastAPI inference service and Streamlit dashboard. Detects four brain-tumor classes from MRI scans with 96.3% mAP@50, 93.9% precision, and 94.0% recall.",
+    link: "https://github.com/marwaaann/NeuroScan.AI",
+    image: "/images/brain-tumor.svg",
+    status: "completed" as const,
+  },
+  {
+    title: "Adversarial Attack Detection",
+    category: "Deep Learning & Security Research",
+    tools: "Python, CNN, PyTorch, FGSM, CIFAKE Dataset, Adversarial ML",
+    description:
+      "CNN-based adversarial attack detection research using the CIFAKE dataset of approximately 120,000 images. FGSM experiments and pixel-variation analysis achieved a 98.5% detection rate; the paper is under submission.",
     link: "https://github.com/marwaaann/Adversarial-attack-detection",
     image: "/images/brain-tumor.svg",
-    status: "completed" as const,
-  },
-  {
-    title: "Brain Tumor Detection System",
-    category: "Deep Learning & Computer Vision",
-    tools: "Python, YOLOv8, YOLOv11, OpenCV, MRI Processing",
-    description:
-      "Deep learning system for automated brain tumor detection on MRI scans. Trained on 7,000+ annotated images across Glioma, Meningioma, Pituitary, and No Tumor classes. YOLOv11 achieves ~92 FPS real-time inference.",
-    link: "https://github.com/marwaaann/brain-tumor-detection-yolo",
-    image: "/images/brain-tumor.svg",
-    status: "completed" as const,
-  },
-  {
-    title: "FreshFinds – Sustainable Food Marketplace",
-    category: "Hackathon Team Project",
-    tools: "React.js, Node.js, Express.js, MongoDB, JavaScript",
-    description:
-      "Built with friends during a hackathon, FreshFinds connects local shops with customers to resell unsold food at affordable prices. The platform helps reduce food waste while supporting local businesses through search, filtering, and real-time availability updates.",
-    link: "https://github.com/keshavagr273/FreshFinds",
-    image: "/images/freshfinds.svg",
     status: "completed" as const,
   },
 ];
@@ -142,21 +142,20 @@ export const researchPapers = [
     link: "https://drive.google.com/file/d/1Yafmx0EdyaCL4TK178iUDZQjF9pBK1Ls/view?usp=sharing",
   },
   {
-    title: "Brain Tumor Detection Using YOLOv8 and YOLOv11",
+    title: "NeuroScan.AI: Brain Tumor Detection Using YOLOv8",
     type: "Research Paper",
     duration: "Oct 2025 – Dec 2025",
     mentor: "Dr. Jitendra K Samriya",
     teamSize: 6,
     skills: [
       "YOLOv8",
-      "YOLOv11",
       "Deep Learning",
       "MRI Processing",
       "Object Detection",
     ],
     description:
-      "Co-authored research on automated brain tumor detection using state-of-the-art YOLO architectures on 7,000+ annotated MRI scans covering Glioma, Meningioma, Pituitary, and No Tumor classes. YOLOv11 achieved superior detection accuracy with real-time inference suitable for clinical applications.",
-    link: "https://drive.google.com/file/d/1GkrEfBI3bmmBloldr0HI8evRoPVQVB8/view?usp=sharing",
+      "Built a FastAPI and Streamlit application around a YOLOv8 detector trained across Glioma, Meningioma, Pituitary, and No Tumor classes. The validated model achieved 96.31% mAP@50, 93.87% precision, and 94.01% recall under the supervision of Dr. Jitendra K. Samriya.",
+    link: "https://github.com/marwaaann/NeuroScan.AI",
   },
   {
     title:
@@ -207,19 +206,23 @@ export const achievements = [
 ];
 
 export const skills = {
-  languages: ["Java", "Go", "C++", "Python", "JavaScript", "SQL"],
+  languages: ["Java", "C", "C++", "Python", "JavaScript", "TypeScript", "SQL"],
   backend: [
     "Spring Boot",
     "Spring Security",
     "Spring Data JPA/Hibernate",
     "Node.js",
     "Express.js",
+    "FastAPI",
+    "LangGraph",
+    "Gemini API",
+    "WebSockets",
     "REST APIs",
     "JWT Authentication",
     "Role-Based Access Control (RBAC)",
   ],
-  frontend: ["React.js", "HTML", "CSS", "JavaScript", "TypeScript", "MERN Stack"],
-  databases: ["PostgreSQL", "MySQL", "MongoDB", "Schema Design", "Query Optimization", "Indexing"],
+  frontend: ["React.js", "HTML", "CSS", "JavaScript", "TypeScript", "Tailwind CSS", "Three.js", "MERN Stack"],
+  databases: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Schema Design", "Query Optimization", "Indexing"],
   security: ["JWT Authentication", "RBAC", "Spring Security"],
   ml: [
     "Deep Learning",
@@ -228,8 +231,11 @@ export const skills = {
     "XGBoost",
     "Random Forest",
     "Computer Vision",
+    "OpenCV",
+    "TensorFlow",
+    "SHAP",
   ],
-  cloud: ["Docker", "Linux", "Git", "GitHub", "CI/CD Pipelines", "Maven"],
-  testing: ["JUnit", "Postman", "API Testing", "Integration Testing"],
+  cloud: ["Docker", "Linux", "Git", "GitHub", "Vercel", "AWS", "Render", "CI/CD Pipelines", "Maven"],
+  testing: ["JUnit", "Jest", "Postman", "Zod Validation", "API Testing", "Integration Testing"],
   fundamentals: ["Data Structures & Algorithms", "OOP", "DBMS", "Computer Networks", "Operating Systems", "Software Engineering"],
 };

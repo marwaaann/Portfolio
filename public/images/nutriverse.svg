@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">NutriVerse project preview</title>
+  <desc id="desc">A recipe and nutrition assistant dashboard with nutrition metrics.</desc>
+  <rect width="900" height="560" fill="#101316"/>
+  <rect x="36" y="34" width="828" height="492" rx="18" fill="#18211f" stroke="#89b68e" stroke-opacity=".45"/>
+  <circle cx="94" cy="92" r="28" fill="#c5e86c"/>
+  <path d="M83 100c8-27 27-34 38-31-2 18-13 34-38 31Z" fill="#18211f"/>
+  <text x="140" y="103" fill="#f2f5e9" font-family="sans-serif" font-size="30" font-weight="600">NutriVerse</text>
+  <text x="72" y="177" fill="#c5e86c" font-family="sans-serif" font-size="17" letter-spacing="2">AI RECIPE &amp; NUTRITION ASSISTANT</text>
+  <rect x="72" y="214" width="470" height="68" rx="12" fill="#26332f"/>
+  <text x="98" y="256" fill="#dbe7d8" font-family="sans-serif" font-size="21">Ask for a high-protein dinner...</text>
+  <rect x="570" y="214" width="220" height="68" rx="12" fill="#c5e86c"/>
+  <text x="625" y="256" fill="#18211f" font-family="sans-serif" font-size="22" font-weight="600">Generate</text>
+  <rect x="72" y="326" width="180" height="128" rx="14" fill="#22302b"/>
+  <rect x="274" y="326" width="180" height="128" rx="14" fill="#22302b"/>
+  <rect x="476" y="326" width="180" height="128" rx="14" fill="#22302b"/>
+  <rect x="678" y="326" width="112" height="128" rx="14" fill="#31433a"/>
+  <text x="94" y="363" fill="#93c89b" font-family="sans-serif" font-size="16">CALORIES</text>
+  <text x="94" y="415" fill="#f2f5e9" font-family="sans-serif" font-size="35" font-weight="600">642 kcal</text>
+  <text x="296" y="363" fill="#93c89b" font-family="sans-serif" font-size="16">PROTEIN</text>
+  <text x="296" y="415" fill="#f2f5e9" font-family="sans-serif" font-size="35" font-weight="600">38 g</text>
+  <text x="498" y="363" fill="#93c89b" font-family="sans-serif" font-size="16">CARBS</text>
+  <text x="498" y="415" fill="#f2f5e9" font-family="sans-serif" font-size="35" font-weight="600">54 g</text>
+  <text x="700" y="363" fill="#c5e86c" font-family="sans-serif" font-size="16">USDA</text>
+  <text x="700" y="415" fill="#f2f5e9" font-family="sans-serif" font-size="23" font-weight="600">MATCHED</text>
+</svg>
