@@ -2,8 +2,6 @@ import { PropsWithChildren } from "react";
 
 import "./styles/Landing.css";
 
-import { personalInfo } from "../data/portfolio";
-
 
 
 const Landing = ({ children }: PropsWithChildren) => {
@@ -29,7 +27,6 @@ const Landing = ({ children }: PropsWithChildren) => {
             </p>
             <div className="landing-actions">
               <a className="landing-action landing-action-primary" href="#work">View projects <span>GO</span></a>
-              <a className="landing-action" href={`mailto:${personalInfo.email}`}>Let's talk <span>GO</span></a>
             </div>
           </div>
 
