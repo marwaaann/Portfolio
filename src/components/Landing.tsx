@@ -25,9 +25,6 @@ const Landing = ({ children }: PropsWithChildren) => {
             <p className="landing-summary">
               I build secure backend systems, polished React products, and practical machine-learning tools.
             </p>
-            <div className="landing-actions">
-              <a className="landing-action landing-action-primary" href="#work">View projects <span>GO</span></a>
-            </div>
           </div>
 
           <div className="landing-info">
@@ -48,12 +45,6 @@ const Landing = ({ children }: PropsWithChildren) => {
 
         </div>
 
-        <div className="landing-proof" aria-label="Technical highlights">
-          <div><strong>20+</strong><span>secure REST APIs</span></div>
-          <div><strong>12+</strong><span>database entities designed</span></div>
-          <div><strong>700+</strong><span>DSA problems solved</span></div>
-          <div><strong>92 FPS</strong><span>real-time CV inference</span></div>
-        </div>
         {children}
 
       </div>
