@@ -53,9 +53,9 @@ export const projects = [
   {
     title: "NutriVerse",
     category: "AI Recipe & Nutrition Assistant",
-    tools: "TypeScript, React, Node.js, Express, MongoDB, Redis, Gemini, LangGraph, USDA API, Zod",
+    tools: "TypeScript, Node.js, Express, React, MongoDB, Redis, LangGraph, Gemini API, AWS EC2, Zod",
     description:
-      "Full-stack nutrition assistant with Gemini-powered ingredient parsing, USDA FoodData Central analysis across seven nutrition metrics, a LangGraph cooking agent with dynamic tool-calling, WebSocket chat, meal planning, grocery lists, and Redis-backed HttpOnly-cookie sessions.",
+      "Full-stack AI nutrition assistant deployed on AWS EC2 (Nginx, PM2) and Vercel with Gemini-powered ingredient parsing, USDA FoodData Central 7-metric analysis, a 4-node LangGraph agent with dynamic tool-calling, and Upstash Redis session caching.",
     link: "https://github.com/marwaaann/NutriVerse",
     image: "/images/nutriverse.png",
     status: "completed" as const,
@@ -73,9 +73,9 @@ export const projects = [
   {
     title: "Recruitment & Job Portal",
     category: "Full Stack Web App",
-    tools: "Spring Boot, React.js, PostgreSQL, JWT, REST APIs",
+    tools: "Java 21, Spring Boot, React, PostgreSQL, WebSocket, JWT",
     description:
-      "Multi-stage hiring platform with 50+ REST endpoints across 8 modules, 11 normalized PostgreSQL entities, refresh-token rotation, cookie-based CSRF protection, and live role-based messaging through Spring WebSocket/STOMP/SockJS.",
+      "Enterprise applicant tracking system with a Spring Boot REST API (50+ endpoints across 8 modules), 11 normalized PostgreSQL entities, stateless JWT auth with refresh-token rotation, and live role-based messaging via Spring WebSocket/STOMP/SockJS.",
     link: "https://github.com/marwaaann/recruitment-job-portal-system",
     image: "/images/job-portal.png",
     status: "in-progress" as const,
@@ -95,7 +95,7 @@ export const projects = [
     category: "Computer Vision & Machine Learning",
     tools: "Python, YOLOv8, FastAPI, Streamlit, PyTorch, Computer Vision",
     description:
-      "Production-style medical computer-vision application with a FastAPI inference service and Streamlit dashboard. Detects four brain-tumor classes from MRI scans with 96.3% mAP@50, 93.9% precision, and 94.0% recall.",
+      "Full-stack medical imaging application with a FastAPI REST backend and Streamlit frontend for real-time YOLOv8 brain tumor detection across 4 classes on MRI scans, achieving 96.3% mAP@50, 93.9% precision, and 94.0% recall.",
     link: "https://github.com/marwaaann/NeuroScan.AI",
     image: "/images/neuroscan.png",
     status: "completed" as const,
@@ -194,18 +194,13 @@ export const achievements = [
     icon: "🏆",
   },
   {
-    title: "CodeChef Rating",
-    subtitle: "Rating: 1540",
-    icon: "💻",
-  },
-  {
-    title: "500+ Problems Solved on LeetCode",
-    subtitle: "Max Rating: 1624 | Top 15% Globally",
+    title: "700+ Problems Solved",
+    subtitle: "LeetCode (Max: 1624, Top 15%) & CodeChef (1540+)",
     icon: "💻",
   },
   {
     title: "Certified Cyber Engineer (CCE-CNS)",
-    subtitle: "IIT Madras Pravartak",
+    subtitle: "IIT Madras – Proficiency Level A+",
     icon: "🔐",
   },
   {
@@ -230,9 +225,10 @@ export const skills = {
     "REST APIs",
     "JWT Authentication",
     "Role-Based Access Control (RBAC)",
+    "Swagger/OpenAPI",
     "Appwrite",
   ],
-  frontend: ["React.js", "HTML", "CSS", "JavaScript", "TypeScript", "Tailwind CSS", "Three.js", "MERN Stack"],
+  frontend: ["React.js", "Streamlit", "HTML", "CSS", "JavaScript", "TypeScript", "Tailwind CSS", "Three.js", "MERN Stack"],
   databases: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Schema Design", "Query Optimization", "Indexing"],
   security: ["JWT Authentication", "RBAC", "Spring Security"],
   ml: [
@@ -246,7 +242,7 @@ export const skills = {
     "TensorFlow",
     "SHAP",
   ],
-  cloud: ["Docker", "Linux", "Git", "GitHub", "Vercel", "AWS", "Render", "CI/CD Pipelines", "Maven"],
+  cloud: ["Docker", "Linux", "Git", "GitHub", "Vercel", "AWS EC2", "AWS", "Render", "CI/CD Pipelines", "Maven"],
   testing: ["JUnit", "Jest", "Postman", "Zod Validation", "API Testing", "Integration Testing"],
   fundamentals: ["Data Structures & Algorithms", "OOP", "DBMS", "Computer Networks", "Operating Systems", "Software Engineering"],
 };
