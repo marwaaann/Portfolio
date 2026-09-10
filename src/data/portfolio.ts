@@ -68,7 +68,7 @@ export const projects = [
       "Production-grade system with 6 modules — Authentication, Employee Management, Role Management, Leave Management, Approval Workflows, and Audit Logging. Includes 100+ employee records and multi-step leave approval workflows.",
     link: "https://github.com/marwaaann/Employee-Management-System",
     image: "/images/employee-management-login.svg",
-    status: "completed" as const,
+    status: "in-progress" as const,
   },
   {
     title: "Recruitment & Job Portal",
@@ -78,7 +78,7 @@ export const projects = [
       "Enterprise applicant tracking system with a Spring Boot REST API (50+ endpoints across 8 modules), 11 normalized PostgreSQL entities, stateless JWT auth with refresh-token rotation, and live role-based messaging via Spring WebSocket/STOMP/SockJS.",
     link: "https://github.com/marwaaann/recruitment-job-portal-system",
     image: "/images/job-portal.png",
-    status: "in-progress" as const,
+    status: "completed" as const,
   },
   {
     title: "MovieOn",
