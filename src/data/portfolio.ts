@@ -195,7 +195,7 @@ export const achievements = [
   },
   {
     title: "700+ Problems Solved",
-    subtitle: "LeetCode (Max: 1624, Top 15%) & CodeChef (1540+)",
+    subtitle: "446 on LeetCode (Max Rating: 1624) · CodeChef (1540+) · All Platforms",
     icon: "💻",
   },
   {
