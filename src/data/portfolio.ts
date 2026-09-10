@@ -57,7 +57,7 @@ export const projects = [
     description:
       "Full-stack nutrition assistant with Gemini-powered ingredient parsing, USDA FoodData Central analysis across seven nutrition metrics, a LangGraph cooking agent with dynamic tool-calling, WebSocket chat, meal planning, grocery lists, and Redis-backed HttpOnly-cookie sessions.",
     link: "https://github.com/marwaaann/NutriVerse",
-    image: "/images/nutriverse.svg",
+    image: "/images/nutriverse.png",
     status: "completed" as const,
   },
   {
@@ -77,7 +77,7 @@ export const projects = [
     description:
       "Multi-stage hiring platform with 50+ REST endpoints across 8 modules, 11 normalized PostgreSQL entities, refresh-token rotation, cookie-based CSRF protection, and live role-based messaging through Spring WebSocket/STOMP/SockJS.",
     link: "https://github.com/marwaaann/recruitment-job-portal-system",
-    image: "/images/job-portal-login.svg",
+    image: "/images/job-portal.png",
     status: "in-progress" as const,
   },
   {
@@ -97,7 +97,7 @@ export const projects = [
     description:
       "Production-style medical computer-vision application with a FastAPI inference service and Streamlit dashboard. Detects four brain-tumor classes from MRI scans with 96.3% mAP@50, 93.9% precision, and 94.0% recall.",
     link: "https://github.com/marwaaann/NeuroScan.AI",
-    image: "/images/brain-tumor.svg",
+    image: "/images/neuroscan.png",
     status: "completed" as const,
   },
   {
