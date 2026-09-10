@@ -1,6 +1,10 @@
 .achievements-section {
   padding: 120px 0;
-  margin-bottom: 100px;
+  margin: 0 auto 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .achievements-container {
@@ -22,6 +26,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 60px;
+  width: 100%;
 }
 
 .achievements-section h2 > span {
@@ -29,8 +34,7 @@
   font-weight: 300;
 }
 
-.achievements-grid,
-.skills-grid {
+.achievements-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
@@ -147,7 +151,10 @@
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+  gap: 32px 28px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 50px;
 }
 
 .skills-category h4 {

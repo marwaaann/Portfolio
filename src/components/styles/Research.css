@@ -1,6 +1,10 @@
 .research-section {
   padding: 160px 0 120px;
-  margin-bottom: 100px;
+  margin: 0 auto 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .research-container {
@@ -22,6 +26,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 80px;
+  width: 100%;
 }
 
 .research-section h2 > span {
