@@ -81,6 +81,16 @@ export const projects = [
     status: "in-progress" as const,
   },
   {
+    title: "MovieOn",
+    category: "Movie Discovery Web App",
+    tools: "React.js, Tailwind CSS, Appwrite, TMDB API, JavaScript, Vite",
+    description:
+      "Modern movie discovery platform with real-time debounced search, a trending movie algorithm powered by Appwrite database tracking user query metrics, dynamic content fetching from TMDB REST API, and a responsive dark-mode UI.",
+    link: "https://github.com/marwaaann/MovieOn",
+    image: "/images/movieon.png",
+    status: "completed" as const,
+  },
+  {
     title: "NeuroScan.AI",
     category: "Computer Vision & Machine Learning",
     tools: "Python, YOLOv8, FastAPI, Streamlit, PyTorch, Computer Vision",
@@ -220,6 +230,7 @@ export const skills = {
     "REST APIs",
     "JWT Authentication",
     "Role-Based Access Control (RBAC)",
+    "Appwrite",
   ],
   frontend: ["React.js", "HTML", "CSS", "JavaScript", "TypeScript", "Tailwind CSS", "Three.js", "MERN Stack"],
   databases: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Schema Design", "Query Optimization", "Indexing"],
