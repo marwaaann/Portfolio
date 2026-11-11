@@ -56,7 +56,8 @@ export const projects = [
     tools: "TypeScript, Node.js, Express, React, MongoDB, Redis, LangGraph, Gemini API, AWS EC2, Zod",
     description:
       "Full-stack AI nutrition assistant deployed on AWS EC2 (Nginx, PM2) and Vercel with Gemini-powered ingredient parsing, USDA FoodData Central 7-metric analysis, a 4-node LangGraph agent with dynamic tool-calling, and Upstash Redis session caching.",
-    link: "https://github.com/marwaaann/NutriVerse",
+    link: "https://nutriverse.marwanshafi.tech/",
+    github: "https://github.com/marwaaann/NutriVerse",
     image: "/images/nutriverse.png",
     status: "completed" as const,
   },
@@ -67,6 +68,7 @@ export const projects = [
     description:
       "Production-grade system with 6 modules — Authentication, Employee Management, Role Management, Leave Management, Approval Workflows, and Audit Logging. Includes 100+ employee records and multi-step leave approval workflows.",
     link: "https://github.com/marwaaann/Employee-Management-System",
+    github: "https://github.com/marwaaann/Employee-Management-System",
     image: "/images/employee-management-login.svg",
     status: "in-progress" as const,
   },
@@ -76,7 +78,8 @@ export const projects = [
     tools: "Java 21, Spring Boot, React, PostgreSQL, WebSocket, JWT",
     description:
       "Enterprise applicant tracking system with a Spring Boot REST API (50+ endpoints across 8 modules), 11 normalized PostgreSQL entities, stateless JWT auth with refresh-token rotation, and live role-based messaging via Spring WebSocket/STOMP/SockJS.",
-    link: "https://github.com/marwaaann/recruitment-job-portal-system",
+    link: "https://recruitment-job-portal-system.vercel.app",
+    github: "https://github.com/marwaaann/recruitment-job-portal-system",
     image: "/images/job-portal.png",
     status: "completed" as const,
   },
@@ -86,7 +89,8 @@ export const projects = [
     tools: "React.js, Tailwind CSS, Appwrite, TMDB API, JavaScript, Vite",
     description:
       "Modern movie discovery platform with real-time debounced search, a trending movie algorithm powered by Appwrite database tracking user query metrics, dynamic content fetching from TMDB REST API, and a responsive dark-mode UI.",
-    link: "https://github.com/marwaaann/MovieOn",
+    link: "https://movieon-w4po.onrender.com",
+    github: "https://github.com/marwaaann/MovieOn",
     image: "/images/movieon.png",
     status: "completed" as const,
   },
@@ -96,7 +100,8 @@ export const projects = [
     tools: "Python, YOLOv8, FastAPI, Streamlit, PyTorch, Computer Vision",
     description:
       "Full-stack medical imaging application with a FastAPI REST backend and Streamlit frontend for real-time YOLOv8 brain tumor detection across 4 classes on MRI scans, achieving 96.3% mAP@50, 93.9% precision, and 94.0% recall.",
-    link: "https://github.com/marwaaann/NeuroScan.AI",
+    link: "https://neuroscan-ai-lp16.onrender.com",
+    github: "https://github.com/marwaaann/NeuroScan.AI",
     image: "/images/neuroscan.png",
     status: "completed" as const,
   },
@@ -107,6 +112,7 @@ export const projects = [
     description:
       "CNN-based adversarial attack detection research using the CIFAKE dataset of approximately 120,000 images. FGSM experiments and pixel-variation analysis achieved a 98.5% detection rate; the paper is under submission.",
     link: "https://github.com/marwaaann/Adversarial-attack-detection",
+    github: "https://github.com/marwaaann/Adversarial-attack-detection",
     image: "/images/brain-tumor.svg",
     status: "completed" as const,
   },
