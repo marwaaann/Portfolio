@@ -111,9 +111,9 @@ export const projects = [
     tools: "Python, CNN, PyTorch, FGSM, CIFAKE Dataset, Adversarial ML",
     description:
       "CNN-based adversarial attack detection research using the CIFAKE dataset of approximately 120,000 images. FGSM experiments and pixel-variation analysis achieved a 98.5% detection rate; the paper is under submission.",
-    link: "https://github.com/marwaaann/Adversarial-attack-detection",
+    link: "https://adversarial-attack-detection.onrender.com",
     github: "https://github.com/marwaaann/Adversarial-attack-detection",
-    image: "/images/brain-tumor.svg",
+    image: "/images/adversarial-attack.png",
     status: "completed" as const,
   },
 ];
